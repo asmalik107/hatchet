@@ -1,0 +1,10 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {}
+}
