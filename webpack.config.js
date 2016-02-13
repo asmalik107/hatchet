@@ -16,25 +16,6 @@ var PATHS = {
 };
 
 
-/*
- module.exports = {
- entry: './app/main.js',
- output: {path: __dirname + '/build', filename: 'bundle.js'},
- module: {
- loaders: [
- {
- test: /.jsx?$/,
- loader: 'babel-loader',
- exclude: /node_modules/,
- query: {
- presets: ['es2015', 'react']
- }
- }
- ]
- },
- };*/
-
-
 var common = {
     entry: {
         app: PATHS.app + '/main.js',
@@ -89,7 +70,7 @@ if (TARGET === 'dev-server' || !TARGET) {
     });
 }
 
-if (TARGET === 'build') {
+if (TARGET === 'build' || TARGET === 'stats') {
     module.exports = merge(common, {
         entry: {
             vendor: Object.keys(pkg.dependencies)

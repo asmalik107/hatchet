@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev-server": "webpack-dev-server --content-base dist/ --progress --colors:",
+    "stats": "webpack --profile --json > stats.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
