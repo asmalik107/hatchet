@@ -1,0 +1,910 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'eslint-loader',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose install initial load of /Users/asimmalik/Documents/dev/am/react/hatchet/package.json
+5 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-core/package.json
+6 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-eslint/package.json
+7 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-loader/package.json
+8 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-preset-es2015/package.json
+9 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-preset-react/package.json
+10 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/clean-webpack-plugin/package.json
+11 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/css-loader/package.json
+12 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint/package.json
+13 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/package.json
+14 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-plugin-react/package.json
+15 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/extract-text-webpack-plugin/package.json
+16 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/html-webpack-plugin/package.json
+17 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/html-webpack-template/package.json
+18 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/react/package.json
+19 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/react-dom/package.json
+20 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/style-loader/package.json
+21 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/webpack/package.json
+22 verbose installManyTop reading scoped package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/webpack-merge/package.json
+23 info package.json clean-webpack-plugin@0.1.8 No license field.
+24 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/package.json
+25 verbose install eslint-loader is installed as 1.2.1
+26 silly cache add args [ 'eslint-loader', null ]
+27 verbose cache add spec eslint-loader
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'eslint-loader',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'eslint-loader',
+28 silly cache add   rawSpec: '',
+28 silly cache add   spec: 'latest',
+28 silly cache add   type: 'tag' }
+29 silly addNamed eslint-loader@latest
+30 verbose addNamed "latest" is being treated as a dist-tag for eslint-loader
+31 info addNameTag [ 'eslint-loader', 'latest' ]
+32 silly mapToRegistry name eslint-loader
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/eslint-loader
+36 verbose addNameTag registry:https://registry.npmjs.org/eslint-loader not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/eslint-loader
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 4:05:57 PM
+40 verbose request id fbed8fa7110eebdb
+41 verbose etag "ASPOHF5HA6ZPK3M3LTCVQDPTO"
+42 http request GET https://registry.npmjs.org/eslint-loader
+43 http 304 https://registry.npmjs.org/eslint-loader
+44 verbose headers { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   etag: '"ASPOHF5HA6ZPK3M3LTCVQDPTO"',
+44 verbose headers   age: '14',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+44 verbose headers   'x-cache': 'HIT',
+44 verbose headers   'x-cache-hits': '1',
+44 verbose headers   'x-timer': 'S1455379557.352269,VS0,VE0',
+44 verbose headers   vary: 'Accept' }
+45 silly get cb [ 304,
+45 silly get   { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     etag: '"ASPOHF5HA6ZPK3M3LTCVQDPTO"',
+45 silly get     age: '14',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-lhr6324-LHR',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '1',
+45 silly get     'x-timer': 'S1455379557.352269,VS0,VE0',
+45 silly get     vary: 'Accept' } ]
+46 verbose etag https://registry.npmjs.org/eslint-loader from cache
+47 verbose get saving eslint-loader to /Users/asimmalik/.npm/registry.npmjs.org/eslint-loader/.cache.json
+48 silly addNameTag next cb for eslint-loader with tag latest
+49 silly addNamed eslint-loader@1.2.1
+50 verbose addNamed "1.2.1" is a plain semver version for eslint-loader
+51 silly cache afterAdd eslint-loader@1.2.1
+52 verbose afterAdd /Users/asimmalik/.npm/eslint-loader/1.2.1/package/package.json not in flight; writing
+53 verbose afterAdd /Users/asimmalik/.npm/eslint-loader/1.2.1/package/package.json written
+54 silly install resolved [ { name: 'eslint-loader',
+54 silly install resolved     version: '1.2.1',
+54 silly install resolved     description: 'eslint loader (for webpack)',
+54 silly install resolved     keywords: [ 'lint', 'linter', 'eslint', 'loader', 'webpack' ],
+54 silly install resolved     repository:
+54 silly install resolved      { type: 'git',
+54 silly install resolved        url: 'git+https://github.com/MoOx/eslint-loader.git' },
+54 silly install resolved     author: { name: 'Maxime Thirouin' },
+54 silly install resolved     license: 'MIT',
+54 silly install resolved     files: [ 'index.js' ],
+54 silly install resolved     peerDependencies: { eslint: '^1.6.0' },
+54 silly install resolved     dependencies: { 'loader-utils': '^0.2.7', 'object-assign': '^4.0.1' },
+54 silly install resolved     devDependencies:
+54 silly install resolved      { eslint: '^1.6.0',
+54 silly install resolved        'eslint-friendly-formatter': '^1.0.3',
+54 silly install resolved        npmpub: '^3.0.1',
+54 silly install resolved        tape: '^4.0.0',
+54 silly install resolved        webpack: '^1.8.4' },
+54 silly install resolved     scripts:
+54 silly install resolved      { lint: 'eslint .',
+54 silly install resolved        tape: 'tape test/*.js',
+54 silly install resolved        test: 'npm run lint && npm run tape',
+54 silly install resolved        release: 'npmpub' },
+54 silly install resolved     gitHead: 'b7260bf6ded2bff48b91f8f5128b200ebb1657a6',
+54 silly install resolved     bugs: { url: 'https://github.com/MoOx/eslint-loader/issues' },
+54 silly install resolved     homepage: 'https://github.com/MoOx/eslint-loader#readme',
+54 silly install resolved     _id: 'eslint-loader@1.2.1',
+54 silly install resolved     _shasum: '67b1663497585ea2678fcdd5171653ef7b110d20',
+54 silly install resolved     _from: 'eslint-loader@latest',
+54 silly install resolved     _npmVersion: '3.3.12',
+54 silly install resolved     _nodeVersion: '5.4.0',
+54 silly install resolved     _npmUser: { name: 'moox', email: 'm@moox.io' },
+54 silly install resolved     maintainers: [ [Object] ],
+54 silly install resolved     dist:
+54 silly install resolved      { shasum: '67b1663497585ea2678fcdd5171653ef7b110d20',
+54 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-loader/-/eslint-loader-1.2.1.tgz' },
+54 silly install resolved     directories: {},
+54 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-loader/-/eslint-loader-1.2.1.tgz',
+54 silly install resolved     readme: 'ERROR: No README data found!' } ]
+55 info install eslint-loader@1.2.1 into /Users/asimmalik/Documents/dev/am/react/hatchet
+56 info installOne eslint-loader@1.2.1
+57 verbose installOne of eslint-loader to /Users/asimmalik/Documents/dev/am/react/hatchet not in flight; installing
+58 verbose lock using /Users/asimmalik/.npm/_locks/eslint-loader-8b21fe64ba5be5d8.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+59 silly install write writing eslint-loader 1.2.1 to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+60 verbose unbuild node_modules/eslint-loader
+61 info preuninstall eslint-loader@1.2.1
+62 info uninstall eslint-loader@1.2.1
+63 verbose unbuild rmStuff eslint-loader@1.2.1 from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules
+64 info postuninstall eslint-loader@1.2.1
+65 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader is being purged from base /Users/asimmalik/Documents/dev/am/react/hatchet
+66 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+67 silly vacuum-fs purging /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+68 silly vacuum-fs quitting because other entries in /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules
+69 verbose tar unpack /Users/asimmalik/.npm/eslint-loader/1.2.1/package.tgz
+70 verbose tar unpacking to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+71 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader is being purged
+72 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+73 silly gunzTarPerm modes [ '755', '644' ]
+74 silly gunzTarPerm extractEntry package.json
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm extractEntry LICENSE
+77 silly gunzTarPerm extractEntry index.js
+78 silly gunzTarPerm extractEntry CHANGELOG.md
+79 verbose write writing to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/package.json
+80 info preinstall eslint-loader@1.2.1
+81 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/package.json
+82 silly prepareForInstallMany adding loader-utils@^0.2.7 from eslint-loader dependencies
+83 silly prepareForInstallMany adding object-assign@^4.0.1 from eslint-loader dependencies
+84 silly prepareForInstallMany adding eslint@^1.6.0 from eslint-loader peerDependencies
+85 warn peerDependencies The peer dependency eslint@^1.6.0 included from eslint-loader will no
+86 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+87 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+88 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/package.json
+89 silly cache add args [ 'loader-utils@^0.2.7', null ]
+90 verbose cache add spec loader-utils@^0.2.7
+91 silly cache add args [ 'object-assign@^4.0.1', null ]
+92 verbose cache add spec object-assign@^4.0.1
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'loader-utils@^0.2.7',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'loader-utils',
+93 silly cache add   rawSpec: '^0.2.7',
+93 silly cache add   spec: '>=0.2.7 <0.3.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed loader-utils@>=0.2.7 <0.3.0
+95 verbose addNamed ">=0.2.7 <0.3.0" is a valid semver range for loader-utils
+96 silly addNameRange { name: 'loader-utils', range: '>=0.2.7 <0.3.0', hasData: false }
+97 silly mapToRegistry name loader-utils
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/loader-utils
+101 verbose addNameRange registry:https://registry.npmjs.org/loader-utils not in flight; fetching
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'object-assign@^4.0.1',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'object-assign',
+102 silly cache add   rawSpec: '^4.0.1',
+102 silly cache add   spec: '>=4.0.1 <5.0.0',
+102 silly cache add   type: 'range' }
+103 silly addNamed object-assign@>=4.0.1 <5.0.0
+104 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for object-assign
+105 silly addNameRange { name: 'object-assign',
+105 silly addNameRange   range: '>=4.0.1 <5.0.0',
+105 silly addNameRange   hasData: false }
+106 silly mapToRegistry name object-assign
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+110 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+111 verbose request uri https://registry.npmjs.org/loader-utils
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 4:05:57 PM
+114 verbose etag "E2SM5ITJ0X8UF2E7RND86WEO6"
+115 http request GET https://registry.npmjs.org/loader-utils
+116 verbose request uri https://registry.npmjs.org/object-assign
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 4:05:57 PM
+119 verbose etag "82L267B7B9IIOGVISMR8GBLR3"
+120 http request GET https://registry.npmjs.org/object-assign
+121 http 304 https://registry.npmjs.org/loader-utils
+122 verbose headers { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+122 verbose headers   via: '1.1 varnish',
+122 verbose headers   'cache-control': 'max-age=300',
+122 verbose headers   etag: '"E2SM5ITJ0X8UF2E7RND86WEO6"',
+122 verbose headers   age: '41',
+122 verbose headers   connection: 'keep-alive',
+122 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+122 verbose headers   'x-cache': 'HIT',
+122 verbose headers   'x-cache-hits': '1',
+122 verbose headers   'x-timer': 'S1455379557.637514,VS0,VE0',
+122 verbose headers   vary: 'Accept' }
+123 silly get cb [ 304,
+123 silly get   { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+123 silly get     via: '1.1 varnish',
+123 silly get     'cache-control': 'max-age=300',
+123 silly get     etag: '"E2SM5ITJ0X8UF2E7RND86WEO6"',
+123 silly get     age: '41',
+123 silly get     connection: 'keep-alive',
+123 silly get     'x-served-by': 'cache-lhr6335-LHR',
+123 silly get     'x-cache': 'HIT',
+123 silly get     'x-cache-hits': '1',
+123 silly get     'x-timer': 'S1455379557.637514,VS0,VE0',
+123 silly get     vary: 'Accept' } ]
+124 verbose etag https://registry.npmjs.org/loader-utils from cache
+125 verbose get saving loader-utils to /Users/asimmalik/.npm/registry.npmjs.org/loader-utils/.cache.json
+126 silly addNameRange number 2 { name: 'loader-utils', range: '>=0.2.7 <0.3.0', hasData: true }
+127 silly addNameRange versions [ 'loader-utils',
+127 silly addNameRange   [ '0.1.0',
+127 silly addNameRange     '0.1.1',
+127 silly addNameRange     '0.1.2',
+127 silly addNameRange     '0.2.0',
+127 silly addNameRange     '0.2.1',
+127 silly addNameRange     '0.2.2',
+127 silly addNameRange     '0.2.3',
+127 silly addNameRange     '0.2.4',
+127 silly addNameRange     '0.2.5',
+127 silly addNameRange     '0.2.6',
+127 silly addNameRange     '0.2.7',
+127 silly addNameRange     '0.2.8',
+127 silly addNameRange     '0.2.9',
+127 silly addNameRange     '0.2.10',
+127 silly addNameRange     '0.2.11',
+127 silly addNameRange     '0.2.12' ] ]
+128 silly addNamed loader-utils@0.2.12
+129 verbose addNamed "0.2.12" is a plain semver version for loader-utils
+130 silly cache afterAdd loader-utils@0.2.12
+131 verbose afterAdd /Users/asimmalik/.npm/loader-utils/0.2.12/package/package.json not in flight; writing
+132 verbose afterAdd /Users/asimmalik/.npm/loader-utils/0.2.12/package/package.json written
+133 http 304 https://registry.npmjs.org/object-assign
+134 verbose headers { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+134 verbose headers   via: '1.1 varnish',
+134 verbose headers   'cache-control': 'max-age=300',
+134 verbose headers   etag: '"82L267B7B9IIOGVISMR8GBLR3"',
+134 verbose headers   age: '158',
+134 verbose headers   connection: 'keep-alive',
+134 verbose headers   'x-served-by': 'cache-lhr6331-LHR',
+134 verbose headers   'x-cache': 'HIT',
+134 verbose headers   'x-cache-hits': '5',
+134 verbose headers   'x-timer': 'S1455379557.649451,VS0,VE0',
+134 verbose headers   vary: 'Accept' }
+135 silly get cb [ 304,
+135 silly get   { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+135 silly get     via: '1.1 varnish',
+135 silly get     'cache-control': 'max-age=300',
+135 silly get     etag: '"82L267B7B9IIOGVISMR8GBLR3"',
+135 silly get     age: '158',
+135 silly get     connection: 'keep-alive',
+135 silly get     'x-served-by': 'cache-lhr6331-LHR',
+135 silly get     'x-cache': 'HIT',
+135 silly get     'x-cache-hits': '5',
+135 silly get     'x-timer': 'S1455379557.649451,VS0,VE0',
+135 silly get     vary: 'Accept' } ]
+136 verbose etag https://registry.npmjs.org/object-assign from cache
+137 verbose get saving object-assign to /Users/asimmalik/.npm/registry.npmjs.org/object-assign/.cache.json
+138 silly addNameRange number 2 { name: 'object-assign', range: '>=4.0.1 <5.0.0', hasData: true }
+139 silly addNameRange versions [ 'object-assign',
+139 silly addNameRange   [ '0.1.0',
+139 silly addNameRange     '0.1.1',
+139 silly addNameRange     '0.1.2',
+139 silly addNameRange     '0.2.0',
+139 silly addNameRange     '0.2.1',
+139 silly addNameRange     '0.2.2',
+139 silly addNameRange     '0.3.0',
+139 silly addNameRange     '0.3.1',
+139 silly addNameRange     '0.4.0',
+139 silly addNameRange     '1.0.0',
+139 silly addNameRange     '2.0.0',
+139 silly addNameRange     '3.0.0',
+139 silly addNameRange     '2.1.1',
+139 silly addNameRange     '4.0.0',
+139 silly addNameRange     '4.0.1' ] ]
+140 silly addNamed object-assign@4.0.1
+141 verbose addNamed "4.0.1" is a plain semver version for object-assign
+142 silly cache afterAdd object-assign@4.0.1
+143 verbose afterAdd /Users/asimmalik/.npm/object-assign/4.0.1/package/package.json not in flight; writing
+144 verbose afterAdd /Users/asimmalik/.npm/object-assign/4.0.1/package/package.json written
+145 silly install resolved [ { name: 'loader-utils',
+145 silly install resolved     version: '0.2.12',
+145 silly install resolved     author: { name: 'Tobias Koppers @sokra' },
+145 silly install resolved     description: 'utils for webpack loaders',
+145 silly install resolved     dependencies: { 'big.js': '^3.0.2', json5: '^0.4.0' },
+145 silly install resolved     scripts:
+145 silly install resolved      { test: 'mocha',
+145 silly install resolved        travis: 'npm run cover -- --report lcovonly',
+145 silly install resolved        cover: 'istanbul cover -x *.runtime.js node_modules/mocha/bin/_mocha',
+145 silly install resolved        'publish-patch': 'mocha && npm version patch && git push && git push --tags && npm publish' },
+145 silly install resolved     license: 'MIT',
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'git+https://github.com/webpack/loader-utils.git' },
+145 silly install resolved     devDependencies: { coveralls: '^2.11.2', istanbul: '^0.3.14', mocha: '^1.21.4' },
+145 silly install resolved     files: [ 'index.js' ],
+145 silly install resolved     gitHead: '581ccbcb264a9e6d7d667276fbfa609e0ee951f3',
+145 silly install resolved     bugs: { url: 'https://github.com/webpack/loader-utils/issues' },
+145 silly install resolved     homepage: 'https://github.com/webpack/loader-utils#readme',
+145 silly install resolved     _id: 'loader-utils@0.2.12',
+145 silly install resolved     _shasum: 'faa2a501563a3c2c9dda57aa8c39d8be628de7a2',
+145 silly install resolved     _from: 'loader-utils@>=0.2.7 <0.3.0',
+145 silly install resolved     _npmVersion: '2.10.1',
+145 silly install resolved     _nodeVersion: '0.12.4',
+145 silly install resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+145 silly install resolved     maintainers: [ [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: 'faa2a501563a3c2c9dda57aa8c39d8be628de7a2',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/loader-utils/-/loader-utils-0.2.12.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/loader-utils/-/loader-utils-0.2.12.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' },
+145 silly install resolved   { name: 'object-assign',
+145 silly install resolved     version: '4.0.1',
+145 silly install resolved     description: 'ES6 Object.assign() ponyfill',
+145 silly install resolved     license: 'MIT',
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'git+https://github.com/sindresorhus/object-assign.git' },
+145 silly install resolved     author:
+145 silly install resolved      { name: 'Sindre Sorhus',
+145 silly install resolved        email: 'sindresorhus@gmail.com',
+145 silly install resolved        url: 'http://sindresorhus.com' },
+145 silly install resolved     engines: { node: '>=0.10.0' },
+145 silly install resolved     scripts: { test: 'xo && mocha', bench: 'matcha bench.js' },
+145 silly install resolved     files: [ 'index.js' ],
+145 silly install resolved     keywords:
+145 silly install resolved      [ 'object',
+145 silly install resolved        'assign',
+145 silly install resolved        'extend',
+145 silly install resolved        'properties',
+145 silly install resolved        'es6',
+145 silly install resolved        'ecmascript',
+145 silly install resolved        'harmony',
+145 silly install resolved        'ponyfill',
+145 silly install resolved        'prollyfill',
+145 silly install resolved        'polyfill',
+145 silly install resolved        'shim',
+145 silly install resolved        'browser' ],
+145 silly install resolved     devDependencies: { lodash: '^3.10.1', matcha: '^0.6.0', mocha: '*', xo: '*' },
+145 silly install resolved     xo: { envs: [Object] },
+145 silly install resolved     gitHead: 'b0c40d37cbc43e89ad3326a9bad4c6b3133ba6d3',
+145 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+145 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign#readme',
+145 silly install resolved     _id: 'object-assign@4.0.1',
+145 silly install resolved     _shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
+145 silly install resolved     _from: 'object-assign@>=4.0.1 <5.0.0',
+145 silly install resolved     _npmVersion: '2.13.3',
+145 silly install resolved     _nodeVersion: '3.0.0',
+145 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz' },
+145 silly install resolved     maintainers: [ [Object] ],
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' } ]
+146 info install loader-utils@0.2.12 into /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+147 info install object-assign@4.0.1 into /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+148 info installOne loader-utils@0.2.12
+149 verbose installOne of loader-utils to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader not in flight; installing
+150 info installOne object-assign@4.0.1
+151 verbose installOne of object-assign to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader not in flight; installing
+152 verbose lock using /Users/asimmalik/.npm/_locks/loader-utils-da5fd71bf0c662bc.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+153 verbose lock using /Users/asimmalik/.npm/_locks/object-assign-f68d81096bc075ac.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+154 silly install write writing loader-utils 0.2.12 to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+155 silly install write writing object-assign 4.0.1 to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+156 verbose unbuild node_modules/eslint-loader/node_modules/loader-utils
+157 verbose unbuild node_modules/eslint-loader/node_modules/object-assign
+158 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils is being purged from base /Users/asimmalik/Documents/dev/am/react/hatchet
+159 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+160 verbose tar unpack /Users/asimmalik/.npm/loader-utils/0.2.12/package.tgz
+161 verbose tar unpacking to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+162 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils is being purged
+163 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+164 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign is being purged from base /Users/asimmalik/Documents/dev/am/react/hatchet
+165 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+166 silly gunzTarPerm modes [ '755', '644' ]
+167 verbose tar unpack /Users/asimmalik/.npm/object-assign/4.0.1/package.tgz
+168 verbose tar unpacking to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+169 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign is being purged
+170 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+174 silly gunzTarPerm extractEntry package.json
+175 silly gunzTarPerm extractEntry README.md
+176 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+177 silly gunzTarPerm extractEntry LICENSE
+178 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+179 silly gunzTarPerm extractEntry index.js
+180 silly gunzTarPerm extractEntry license
+181 silly gunzTarPerm extractEntry index.js
+182 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry readme.md
+184 verbose write writing to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/package.json
+185 verbose write writing to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign/package.json
+186 info preinstall loader-utils@0.2.12
+187 info preinstall object-assign@4.0.1
+188 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/package.json
+189 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign/package.json
+190 silly prepareForInstallMany adding big.js@^3.0.2 from loader-utils dependencies
+191 silly prepareForInstallMany adding json5@^0.4.0 from loader-utils dependencies
+192 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/package.json
+193 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign/package.json
+194 silly install resolved []
+195 verbose about to build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+196 info build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+197 silly cache add args [ 'big.js@^3.0.2', null ]
+198 verbose cache add spec big.js@^3.0.2
+199 silly cache add args [ 'json5@^0.4.0', null ]
+200 verbose cache add spec json5@^0.4.0
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'big.js@^3.0.2',
+201 silly cache add   scope: null,
+201 silly cache add   name: 'big.js',
+201 silly cache add   rawSpec: '^3.0.2',
+201 silly cache add   spec: '>=3.0.2 <4.0.0',
+201 silly cache add   type: 'range' }
+202 silly addNamed big.js@>=3.0.2 <4.0.0
+203 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for big.js
+204 silly addNameRange { name: 'big.js', range: '>=3.0.2 <4.0.0', hasData: false }
+205 silly mapToRegistry name big.js
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/big.js
+209 verbose addNameRange registry:https://registry.npmjs.org/big.js not in flight; fetching
+210 silly cache add parsed spec Result {
+210 silly cache add   raw: 'json5@^0.4.0',
+210 silly cache add   scope: null,
+210 silly cache add   name: 'json5',
+210 silly cache add   rawSpec: '^0.4.0',
+210 silly cache add   spec: '>=0.4.0 <0.5.0',
+210 silly cache add   type: 'range' }
+211 silly addNamed json5@>=0.4.0 <0.5.0
+212 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for json5
+213 silly addNameRange { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: false }
+214 silly mapToRegistry name json5
+215 silly mapToRegistry using default registry
+216 silly mapToRegistry registry https://registry.npmjs.org/
+217 silly mapToRegistry uri https://registry.npmjs.org/json5
+218 verbose addNameRange registry:https://registry.npmjs.org/json5 not in flight; fetching
+219 info linkStuff object-assign@4.0.1
+220 silly linkStuff object-assign@4.0.1 has /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules as its parent node_modules
+221 verbose request uri https://registry.npmjs.org/big.js
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 4:05:57 PM
+224 verbose etag "DJZ7VK1GW0V84QAVPNRVS4YKK"
+225 http request GET https://registry.npmjs.org/big.js
+226 verbose request uri https://registry.npmjs.org/json5
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 4:05:57 PM
+229 verbose etag "ASN70NOI1S08Z9FGL0U8OIO0B"
+230 http request GET https://registry.npmjs.org/json5
+231 verbose linkBins object-assign@4.0.1
+232 verbose linkMans object-assign@4.0.1
+233 verbose rebuildBundles object-assign@4.0.1
+234 info install object-assign@4.0.1
+235 info postinstall object-assign@4.0.1
+236 verbose unlock done using /Users/asimmalik/.npm/_locks/object-assign-f68d81096bc075ac.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/object-assign
+237 http 304 https://registry.npmjs.org/big.js
+238 verbose headers { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+238 verbose headers   via: '1.1 varnish',
+238 verbose headers   'cache-control': 'max-age=300',
+238 verbose headers   etag: '"DJZ7VK1GW0V84QAVPNRVS4YKK"',
+238 verbose headers   age: '39',
+238 verbose headers   connection: 'keep-alive',
+238 verbose headers   'x-served-by': 'cache-lhr6331-LHR',
+238 verbose headers   'x-cache': 'HIT',
+238 verbose headers   'x-cache-hits': '1',
+238 verbose headers   'x-timer': 'S1455379557.942527,VS0,VE0',
+238 verbose headers   vary: 'Accept' }
+239 silly get cb [ 304,
+239 silly get   { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+239 silly get     via: '1.1 varnish',
+239 silly get     'cache-control': 'max-age=300',
+239 silly get     etag: '"DJZ7VK1GW0V84QAVPNRVS4YKK"',
+239 silly get     age: '39',
+239 silly get     connection: 'keep-alive',
+239 silly get     'x-served-by': 'cache-lhr6331-LHR',
+239 silly get     'x-cache': 'HIT',
+239 silly get     'x-cache-hits': '1',
+239 silly get     'x-timer': 'S1455379557.942527,VS0,VE0',
+239 silly get     vary: 'Accept' } ]
+240 verbose etag https://registry.npmjs.org/big.js from cache
+241 verbose get saving big.js to /Users/asimmalik/.npm/registry.npmjs.org/big.js/.cache.json
+242 silly addNameRange number 2 { name: 'big.js', range: '>=3.0.2 <4.0.0', hasData: true }
+243 silly addNameRange versions [ 'big.js',
+243 silly addNameRange   [ '2.0.0',
+243 silly addNameRange     '2.1.0',
+243 silly addNameRange     '2.2.0',
+243 silly addNameRange     '2.4.0',
+243 silly addNameRange     '2.4.1',
+243 silly addNameRange     '2.5.0',
+243 silly addNameRange     '2.5.1',
+243 silly addNameRange     '3.0.0',
+243 silly addNameRange     '3.0.1',
+243 silly addNameRange     '3.0.2',
+243 silly addNameRange     '3.1.1',
+243 silly addNameRange     '3.1.2',
+243 silly addNameRange     '3.1.3' ] ]
+244 silly addNamed big.js@3.1.3
+245 verbose addNamed "3.1.3" is a plain semver version for big.js
+246 silly cache afterAdd big.js@3.1.3
+247 verbose afterAdd /Users/asimmalik/.npm/big.js/3.1.3/package/package.json not in flight; writing
+248 verbose afterAdd /Users/asimmalik/.npm/big.js/3.1.3/package/package.json written
+249 http 304 https://registry.npmjs.org/json5
+250 verbose headers { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+250 verbose headers   via: '1.1 varnish',
+250 verbose headers   'cache-control': 'max-age=300',
+250 verbose headers   etag: '"ASN70NOI1S08Z9FGL0U8OIO0B"',
+250 verbose headers   age: '0',
+250 verbose headers   connection: 'keep-alive',
+250 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+250 verbose headers   'x-cache': 'HIT',
+250 verbose headers   'x-cache-hits': '1',
+250 verbose headers   'x-timer': 'S1455379557.842374,VS0,VE646',
+250 verbose headers   vary: 'Accept' }
+251 silly get cb [ 304,
+251 silly get   { date: 'Sat, 13 Feb 2016 16:05:57 GMT',
+251 silly get     via: '1.1 varnish',
+251 silly get     'cache-control': 'max-age=300',
+251 silly get     etag: '"ASN70NOI1S08Z9FGL0U8OIO0B"',
+251 silly get     age: '0',
+251 silly get     connection: 'keep-alive',
+251 silly get     'x-served-by': 'cache-lhr6321-LHR',
+251 silly get     'x-cache': 'HIT',
+251 silly get     'x-cache-hits': '1',
+251 silly get     'x-timer': 'S1455379557.842374,VS0,VE646',
+251 silly get     vary: 'Accept' } ]
+252 verbose etag https://registry.npmjs.org/json5 from cache
+253 verbose get saving json5 to /Users/asimmalik/.npm/registry.npmjs.org/json5/.cache.json
+254 silly addNameRange number 2 { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: true }
+255 silly addNameRange versions [ 'json5', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0', '0.4.0' ] ]
+256 silly addNamed json5@0.4.0
+257 verbose addNamed "0.4.0" is a plain semver version for json5
+258 silly cache afterAdd json5@0.4.0
+259 verbose afterAdd /Users/asimmalik/.npm/json5/0.4.0/package/package.json not in flight; writing
+260 verbose afterAdd /Users/asimmalik/.npm/json5/0.4.0/package/package.json written
+261 silly install resolved [ { name: 'big.js',
+261 silly install resolved     description: 'A small, fast, easy-to-use library for arbitrary-precision decimal arithmetic',
+261 silly install resolved     version: '3.1.3',
+261 silly install resolved     keywords:
+261 silly install resolved      [ 'arbitrary',
+261 silly install resolved        'precision',
+261 silly install resolved        'arithmetic',
+261 silly install resolved        'big',
+261 silly install resolved        'number',
+261 silly install resolved        'decimal',
+261 silly install resolved        'float',
+261 silly install resolved        'biginteger',
+261 silly install resolved        'bigdecimal',
+261 silly install resolved        'bignumber',
+261 silly install resolved        'bigint',
+261 silly install resolved        'bignum' ],
+261 silly install resolved     repository:
+261 silly install resolved      { type: 'git',
+261 silly install resolved        url: 'git+https://github.com/MikeMcl/big.js.git' },
+261 silly install resolved     main: './big',
+261 silly install resolved     author: { name: 'Michael Mclaughlin', email: 'M8ch88l@gmail.com' },
+261 silly install resolved     bugs: { url: 'https://github.com/MikeMcl/big.js/issues' },
+261 silly install resolved     engines: { node: '*' },
+261 silly install resolved     license: 'MIT',
+261 silly install resolved     scripts:
+261 silly install resolved      { test: 'node ./test/every-test.js',
+261 silly install resolved        build: 'uglifyjs -o ./big.min.js ./big.js' },
+261 silly install resolved     files: [ 'big.js', 'big.min.js' ],
+261 silly install resolved     gitHead: '86268e96b3dbf6db8ce319489f410277d9d4ea1b',
+261 silly install resolved     homepage: 'https://github.com/MikeMcl/big.js#readme',
+261 silly install resolved     _id: 'big.js@3.1.3',
+261 silly install resolved     _shasum: '4cada2193652eb3ca9ec8e55c9015669c9806978',
+261 silly install resolved     _from: 'big.js@>=3.0.2 <4.0.0',
+261 silly install resolved     _npmVersion: '2.9.1',
+261 silly install resolved     _nodeVersion: '0.12.0',
+261 silly install resolved     _npmUser: { name: 'mikemcl', email: 'M8ch88l@gmail.com' },
+261 silly install resolved     maintainers: [ [Object] ],
+261 silly install resolved     dist:
+261 silly install resolved      { shasum: '4cada2193652eb3ca9ec8e55c9015669c9806978',
+261 silly install resolved        tarball: 'http://registry.npmjs.org/big.js/-/big.js-3.1.3.tgz' },
+261 silly install resolved     directories: {},
+261 silly install resolved     _resolved: 'https://registry.npmjs.org/big.js/-/big.js-3.1.3.tgz',
+261 silly install resolved     readme: 'ERROR: No README data found!' },
+261 silly install resolved   { name: 'json5',
+261 silly install resolved     version: '0.4.0',
+261 silly install resolved     description: 'JSON for the ES5 era.',
+261 silly install resolved     keywords: [ 'json', 'es5' ],
+261 silly install resolved     author: { name: 'Aseem Kishore', email: 'aseem.kishore@gmail.com' },
+261 silly install resolved     license: 'MIT',
+261 silly install resolved     contributors: [ [Object], [Object] ],
+261 silly install resolved     main: 'lib/json5.js',
+261 silly install resolved     bin: { json5: 'lib/cli.js' },
+261 silly install resolved     dependencies: {},
+261 silly install resolved     devDependencies: { mocha: '~1.0.3' },
+261 silly install resolved     scripts:
+261 silly install resolved      { build: './lib/cli.js -c package.json5',
+261 silly install resolved        test: 'mocha --ui exports --reporter spec' },
+261 silly install resolved     homepage: 'http://json5.org/',
+261 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/aseemk/json5.git' },
+261 silly install resolved     bugs: { url: 'https://github.com/aseemk/json5/issues' },
+261 silly install resolved     _id: 'json5@0.4.0',
+261 silly install resolved     dist:
+261 silly install resolved      { shasum: '054352e4c4c80c86c0923877d449de176a732c8d',
+261 silly install resolved        tarball: 'http://registry.npmjs.org/json5/-/json5-0.4.0.tgz' },
+261 silly install resolved     _from: 'json5@>=0.4.0 <0.5.0',
+261 silly install resolved     _npmVersion: '1.3.21',
+261 silly install resolved     _npmUser: { name: 'aseemk', email: 'aseem.kishore@gmail.com' },
+261 silly install resolved     maintainers: [ [Object] ],
+261 silly install resolved     directories: {},
+261 silly install resolved     _shasum: '054352e4c4c80c86c0923877d449de176a732c8d',
+261 silly install resolved     _resolved: 'https://registry.npmjs.org/json5/-/json5-0.4.0.tgz',
+261 silly install resolved     readme: 'ERROR: No README data found!' } ]
+262 info install big.js@3.1.3 into /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+263 info install json5@0.4.0 into /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+264 info installOne big.js@3.1.3
+265 verbose installOne of big.js to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils not in flight; installing
+266 info installOne json5@0.4.0
+267 verbose installOne of json5 to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils not in flight; installing
+268 verbose lock using /Users/asimmalik/.npm/_locks/big-js-c6f1bfece346c687.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+269 verbose lock using /Users/asimmalik/.npm/_locks/json5-55f8fe18369c0039.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+270 silly install write writing big.js 3.1.3 to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+271 silly install write writing json5 0.4.0 to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+272 verbose unbuild node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+273 verbose unbuild node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+274 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js is being purged from base /Users/asimmalik/Documents/dev/am/react/hatchet
+275 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+276 verbose tar unpack /Users/asimmalik/.npm/big.js/3.1.3/package.tgz
+277 verbose tar unpacking to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+278 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js is being purged
+279 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+280 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5 is being purged from base /Users/asimmalik/Documents/dev/am/react/hatchet
+281 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+282 silly gunzTarPerm modes [ '755', '644' ]
+283 verbose tar unpack /Users/asimmalik/.npm/json5/0.4.0/package.tgz
+284 verbose tar unpacking to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+285 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5 is being purged
+286 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+287 silly gunzTarPerm modes [ '755', '644' ]
+288 silly gunzTarPerm extractEntry package.json
+289 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+290 silly gunzTarPerm extractEntry package.json
+291 silly gunzTarPerm extractEntry README.md
+292 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+293 silly gunzTarPerm extractEntry LICENCE
+294 silly gunzTarPerm modified mode [ 'LICENCE', 438, 420 ]
+295 silly gunzTarPerm extractEntry .npmignore
+296 silly gunzTarPerm extractEntry README.md
+297 silly gunzTarPerm extractEntry big.js
+298 silly gunzTarPerm modified mode [ 'big.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry big.min.js
+300 silly gunzTarPerm modified mode [ 'big.min.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry .editorconfig
+302 silly gunzTarPerm extractEntry .travis.yml
+303 silly gunzTarPerm extractEntry CHANGELOG.md
+304 silly gunzTarPerm extractEntry lib/cli.js
+305 silly gunzTarPerm extractEntry lib/json5.js
+306 silly gunzTarPerm extractEntry lib/require.js
+307 silly gunzTarPerm extractEntry package.json5
+308 silly gunzTarPerm extractEntry test/parse.js
+309 silly gunzTarPerm extractEntry test/require.js
+310 silly gunzTarPerm extractEntry test/stringify.js
+311 silly gunzTarPerm extractEntry test/parse-cases/arrays/leading-comma-array.js
+312 silly gunzTarPerm extractEntry test/parse-cases/arrays/lone-trailing-comma-array.js
+313 silly gunzTarPerm extractEntry test/parse-cases/arrays/empty-array.json
+314 silly gunzTarPerm extractEntry test/parse-cases/arrays/no-comma-array.txt
+315 silly gunzTarPerm extractEntry test/parse-cases/arrays/regular-array.json
+316 silly gunzTarPerm extractEntry test/parse-cases/arrays/trailing-comma-array.json5
+317 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-following-top-level-value.json5
+318 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-following-array-element.json5
+319 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-in-string.json
+320 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-preceding-top-level-value.json5
+321 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-with-asterisks.json5
+322 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-following-array-element.json5
+323 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-following-top-level-value.json5
+324 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-in-string.json
+325 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-preceding-top-level-value.json5
+326 silly gunzTarPerm extractEntry test/parse-cases/comments/top-level-block-comment.txt
+327 silly gunzTarPerm extractEntry test/parse-cases/comments/top-level-inline-comment.txt
+328 silly gunzTarPerm extractEntry test/parse-cases/comments/unterminated-block-comment.txt
+329 silly gunzTarPerm extractEntry test/parse-cases/misc/empty.txt
+330 silly gunzTarPerm extractEntry test/parse-cases/misc/npm-package.json
+331 silly gunzTarPerm extractEntry test/parse-cases/misc/npm-package.json5
+332 silly gunzTarPerm extractEntry test/parse-cases/misc/readme-example.json5
+333 silly gunzTarPerm extractEntry test/parse-cases/misc/valid-whitespace.json5
+334 silly gunzTarPerm extractEntry test/parse-cases/new-lines/.editorconfig
+335 silly gunzTarPerm extractEntry test/parse-cases/new-lines/.gitattributes
+336 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-cr.json5
+337 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-crlf.json5
+338 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-lf.json5
+339 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-cr.json5
+340 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-crlf.json5
+341 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-lf.json5
+342 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-noctal.js
+343 silly gunzTarPerm extractEntry test/parse-cases/numbers/noctal-with-leading-octal-digit.js
+344 silly gunzTarPerm extractEntry test/parse-cases/numbers/noctal.js
+345 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-noctal.js
+346 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-binary-coffeescript.txt
+347 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-with-integer-exponent.json
+348 silly gunzTarPerm extractEntry test/parse-cases/numbers/float.json
+349 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-empty.txt
+350 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-lowercase-letter.json5
+351 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-uppercase-x.json5
+352 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-with-integer-exponent.json5
+353 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal.json5
+354 silly gunzTarPerm extractEntry test/parse-cases/numbers/infinity.json5
+355 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-float-exponent.txt
+356 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-hexadecimal-exponent.txt
+357 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-integer-exponent.json
+358 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-float-exponent.txt
+359 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-hexadecimal-exponent.txt
+360 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-integer-exponent.json
+361 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-zero-integer-exponent.json
+362 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-float-exponent.txt
+363 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-hexadecimal-exponent.txt
+364 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-integer-exponent.json
+365 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-zero-integer-exponent.json
+366 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-zero-integer-exponent.json
+367 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer.json
+368 silly gunzTarPerm extractEntry test/parse-cases/numbers/lone-decimal-point.txt
+369 silly gunzTarPerm extractEntry test/parse-cases/numbers/nan.json5
+370 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-binary-coffeescript.txt
+371 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-leading-decimal-point.json5
+372 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-leading-zero.json
+373 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-trailing-decimal-point.json5
+374 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float.json
+375 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-hexadecimal.json5
+376 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-infinity.json5
+377 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-integer.json
+378 silly gunzTarPerm extractEntry test/parse-cases/numbers/binary-coffeescript.txt
+379 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-octal-coffeescript.txt
+380 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-octal.txt
+381 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-leading-decimal-point.json5
+382 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float-leading-decimal-point.json5
+383 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float-trailing-decimal-point.json5
+384 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float.json
+385 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-hexadecimal.json5
+386 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-integer.json
+387 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-octal-coffeescript.txt
+388 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-octal.txt
+389 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-leading-zero.json
+390 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-trailing-decimal-point-with-integer-exponent.json5
+391 silly gunzTarPerm extractEntry test/parse-cases/numbers/octal-coffeescript.txt
+392 silly gunzTarPerm extractEntry test/parse-cases/numbers/octal.txt
+393 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-binary-coffeescript.txt
+394 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-leading-decimal-point.json5
+395 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-leading-zero.json5
+396 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-trailing-decimal-point.json5
+397 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float.json5
+398 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-hexadecimal.json5
+399 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-infinity.json5
+400 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-integer.json5
+401 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-trailing-decimal-point.json5
+402 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-octal-coffeescript.txt
+403 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-octal.txt
+404 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-binary-coffeescript.txt
+405 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float-leading-decimal-point.json5
+406 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float-trailing-decimal-point.json5
+407 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float.json5
+408 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-hexadecimal.json5
+409 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-integer.json5
+410 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-octal-coffeescript.txt
+411 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-octal.txt
+412 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-binary-coffeescript.txt
+413 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float-leading-decimal-point.json5
+414 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float-trailing-decimal-point.json5
+415 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float.json
+416 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-hexadecimal.json5
+417 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-integer-with-integer-exponent.json
+418 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-integer.json
+419 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-octal-coffeescript.txt
+420 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-octal.txt
+421 silly gunzTarPerm extractEntry test/parse-cases/objects/lone-trailing-comma-object.txt
+422 silly gunzTarPerm extractEntry test/parse-cases/objects/duplicate-keys.json
+423 silly gunzTarPerm extractEntry test/parse-cases/objects/illegal-unquoted-key-number.txt
+424 silly gunzTarPerm extractEntry test/parse-cases/objects/illegal-unquoted-key-symbol.txt
+425 silly gunzTarPerm extractEntry test/parse-cases/objects/leading-comma-object.txt
+426 silly gunzTarPerm extractEntry test/parse-cases/objects/empty-object.json
+427 silly gunzTarPerm extractEntry test/parse-cases/objects/no-comma-object.txt
+428 silly gunzTarPerm extractEntry test/parse-cases/objects/reserved-unquoted-key.json5
+429 silly gunzTarPerm extractEntry test/parse-cases/objects/single-quoted-key.json5
+430 silly gunzTarPerm extractEntry test/parse-cases/objects/trailing-comma-object.json5
+431 silly gunzTarPerm extractEntry test/parse-cases/objects/unquoted-keys.json5
+432 silly gunzTarPerm extractEntry test/parse-cases/strings/escaped-single-quoted-string.json5
+433 silly gunzTarPerm extractEntry test/parse-cases/strings/multi-line-string.json5
+434 silly gunzTarPerm extractEntry test/parse-cases/strings/single-quoted-string.json5
+435 silly gunzTarPerm extractEntry test/parse-cases/strings/unescaped-multi-line-string.txt
+436 silly gunzTarPerm extractEntry test/parse-cases/todo/unicode-escaped-unquoted-key.json5
+437 silly gunzTarPerm extractEntry test/parse-cases/todo/unicode-unquoted-key.json5
+438 silly gunzTarPerm extractEntry test/readme.md
+439 verbose write writing to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js/package.json
+440 info preinstall big.js@3.1.3
+441 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js/package.json
+442 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js/package.json
+443 silly install resolved []
+444 verbose about to build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+445 info build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+446 info linkStuff big.js@3.1.3
+447 silly linkStuff big.js@3.1.3 has /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules as its parent node_modules
+448 verbose linkBins big.js@3.1.3
+449 verbose linkMans big.js@3.1.3
+450 verbose rebuildBundles big.js@3.1.3
+451 info install big.js@3.1.3
+452 info postinstall big.js@3.1.3
+453 verbose unlock done using /Users/asimmalik/.npm/_locks/big-js-c6f1bfece346c687.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/big.js
+454 verbose write writing to /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5/package.json
+455 info preinstall json5@0.4.0
+456 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5/package.json
+457 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5/package.json
+458 silly install resolved []
+459 verbose about to build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+460 info build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+461 info linkStuff json5@0.4.0
+462 silly linkStuff json5@0.4.0 has /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules as its parent node_modules
+463 verbose linkBins json5@0.4.0
+464 verbose link bins [ { json5: 'lib/cli.js' },
+464 verbose link bins   '/Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/.bin',
+464 verbose link bins   false ]
+465 verbose linkMans json5@0.4.0
+466 verbose rebuildBundles json5@0.4.0
+467 silly gentlyRm /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/.bin/json5 is being purged
+468 verbose gentlyRm don't care about contents; nuking /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/.bin/json5
+469 info install json5@0.4.0
+470 info postinstall json5@0.4.0
+471 verbose unlock done using /Users/asimmalik/.npm/_locks/json5-55f8fe18369c0039.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils/node_modules/json5
+472 verbose about to build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+473 info build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+474 info linkStuff loader-utils@0.2.12
+475 silly linkStuff loader-utils@0.2.12 has /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules as its parent node_modules
+476 verbose linkBins loader-utils@0.2.12
+477 verbose linkMans loader-utils@0.2.12
+478 verbose rebuildBundles loader-utils@0.2.12
+479 verbose rebuildBundles [ '.bin', 'big.js', 'json5' ]
+480 info install loader-utils@0.2.12
+481 info postinstall loader-utils@0.2.12
+482 verbose unlock done using /Users/asimmalik/.npm/_locks/loader-utils-da5fd71bf0c662bc.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/node_modules/loader-utils
+483 verbose about to build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+484 info build /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+485 info linkStuff eslint-loader@1.2.1
+486 silly linkStuff eslint-loader@1.2.1 has /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules as its parent node_modules
+487 verbose linkBins eslint-loader@1.2.1
+488 verbose linkMans eslint-loader@1.2.1
+489 verbose rebuildBundles eslint-loader@1.2.1
+490 verbose rebuildBundles [ 'loader-utils', 'object-assign' ]
+491 info install eslint-loader@1.2.1
+492 info postinstall eslint-loader@1.2.1
+493 verbose readDependencies loading dependencies from /Users/asimmalik/Documents/dev/am/react/hatchet/package.json
+494 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-core/package.json
+495 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-eslint/package.json
+496 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-loader/package.json
+497 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-preset-es2015/package.json
+498 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/babel-preset-react/package.json
+499 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/clean-webpack-plugin/package.json
+500 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/css-loader/package.json
+501 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint/package.json
+502 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader/package.json
+503 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-plugin-react/package.json
+504 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/extract-text-webpack-plugin/package.json
+505 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/html-webpack-plugin/package.json
+506 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/html-webpack-template/package.json
+507 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/react/package.json
+508 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/react-dom/package.json
+509 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/style-loader/package.json
+510 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/webpack/package.json
+511 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/webpack-merge/package.json
+512 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/.bin/eslint/package.json
+513 verbose targetResolver reading package data from /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/.bin/webpack/package.json
+514 verbose already installed skipping eslint@^1.6.0 /Users/asimmalik/Documents/dev/am/react/hatchet
+515 silly install resolved []
+516 verbose unlock done using /Users/asimmalik/.npm/_locks/eslint-loader-8b21fe64ba5be5d8.lock for /Users/asimmalik/Documents/dev/am/react/hatchet/node_modules/eslint-loader
+517 verbose validateInstall loading /Users/asimmalik/Documents/dev/am/react/hatchet/package.json for validation
+518 verbose stack Error: The package eslint@2.0.0 does not satisfy its siblings' peerDependencies requirements!
+518 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+518 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+518 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+518 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+518 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+518 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+518 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+518 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+518 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+518 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+519 verbose cwd /Users/asimmalik/Documents/dev/am/react/hatchet
+520 error Darwin 15.2.0
+521 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "eslint-loader" "--save-dev"
+522 error node v4.2.6
+523 error npm  v2.14.12
+524 error code EPEERINVALID
+525 error peerinvalid The package eslint@2.0.0 does not satisfy its siblings' peerDependencies requirements!
+525 error peerinvalid Peer eslint-loader@1.2.1 wants eslint@^1.6.0
+526 verbose exit [ 1, true ]
